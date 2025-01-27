@@ -23,7 +23,7 @@
 #include <stdio.h>
 #include <math.h>
 
-VKD3D_DEBUG_ENV_NAME("VKD3D_SHADER_DEBUG");
+// VKD3D_DEBUG_ENV_NAME("VKD3D_SHADER_DEBUG");
 
 static inline int char_to_int(char c)
 {

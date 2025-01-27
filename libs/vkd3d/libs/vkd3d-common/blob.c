@@ -20,12 +20,12 @@
 #define WIDL_C_INLINE_WRAPPERS
 #endif
 #define COBJMACROS
-#define INITGUID
+// #define INITGUID
 #define CONST_VTABLE
 #include "vkd3d.h"
 #include "vkd3d_blob.h"
 #include "vkd3d_memory.h"
-#include "vkd3d_d3d12shader.h"
+#include "d3d12shader.h"
 
 struct vkd3d_blob
 {

@@ -20,7 +20,7 @@
 
 #include "hlsl.h"
 #include "vkd3d_shader_private.h"
-#include "vkd3d_d3dcommon.h"
+#include "d3dcommon.h"
 #include <stdio.h>
 #include <math.h>
 

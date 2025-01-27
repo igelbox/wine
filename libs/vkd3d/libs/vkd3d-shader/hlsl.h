@@ -22,7 +22,7 @@
 
 #include "vkd3d_shader_private.h"
 #include "rbtree.h"
-#include "vkd3d_d3dx9shader.h"
+#include "d3dx9shader.h"
 
 /* The general IR structure is inspired by Mesa GLSL hir, even though the code
  * ends up being quite different in practice. Anyway, here comes the relevant
