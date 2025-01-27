@@ -1,0 +1,39 @@
+./configure --disable-option-checking \
+--disable-tests \
+--enable-archs=x86_64 \
+--without-alsa \
+--without-capi \
+--with-coreaudio \
+--with-cups \
+--without-dbus \
+--without-fontconfig \
+--with-freetype \
+--with-gettext \
+--without-gettextpo \
+--without-gphoto \
+--with-gnutls \
+--without-gssapi \
+--without-krb5 \
+--with-mingw \
+--without-netapi \
+--with-opencl \
+--with-opengl \
+--without-oss \
+--with-pcap \
+--with-pcsclite \
+--with-pthread \
+--without-pulse \
+--without-sane \
+--with-sdl \
+--without-udev \
+--with-unwind \
+--without-usb \
+--without-v4l2 \
+--without-wayland \
+--without-x \
+--with-vulkan \
+--with-gstreamer \
+--with-ffmpeg \
+CPPFLAGS="-I/Users/igelbox/VulkanSDK/1.4.304.0/macOS/include/"
+# --with-inotify
+# --enable-archs=i386,x86_64 \
