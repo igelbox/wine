@@ -66,8 +66,8 @@ enum vkd3d_result
 typedef void (*PFN_vkd3d_log)(const char *format, va_list args);
 
 #ifdef _WIN32
-# define VKD3D_IMPORT
-# define VKD3D_EXPORT
+# define VKD3D_IMPORT __declspec(dllimport)
+# define VKD3D_EXPORT __declspec(dllexport)
 #elif defined(__GNUC__)
 # define VKD3D_IMPORT
 # define VKD3D_EXPORT __attribute__((visibility("default")))

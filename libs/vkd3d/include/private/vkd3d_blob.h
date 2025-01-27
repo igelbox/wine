@@ -19,8 +19,8 @@
 #ifndef __VKD3D_BLOB_H
 #define __VKD3D_BLOB_H
 
-#include "windows.h"
-#include "d3dcommon.h"
+#include "vkd3d_windows.h"
+#include "vkd3d_d3dcommon.h"
 
 HRESULT vkd3d_blob_create(void *buffer, SIZE_T size, ID3D10Blob **blob);
 
